@@ -64,7 +64,7 @@ public class Main {
                    System.out.println("Najít mazlu podle jména");
                    String najit=sc.nextLine();
                    for(Mazlicek m: Mazlicek){
-                       if (Mazlicek.contains(najit)){
+                       if (m.getJmeno().equals(najit)){
                            System.out.println(m.toString());
                        }
                    }
